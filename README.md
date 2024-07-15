@@ -23,6 +23,25 @@ $$
 
 Now the game is to reproduce the contour plots in Fig.5.
 
+Boundary conditions: $y$-direction homogeneous Dirichlet, $x$-direction periodic.
+
 Initial data:
+
 Parameter values:
+
+$\nu = \mu_{\perp} = 0.3$
+
+$\mu_{\parallel} \delta_s^2 = 0.03$
+
+$\delta_n = -1$
+
+$\delta_s = 0.2$
+
+$\alpha = 0.744$
+
+$\beta = 0.7$
+
+Box size and centring $L_x =12.5$, $L_y = 50$ and $y_0 = 25$.
+
 Other considerations:
+$\nu$ and $\mu_{\perp}$ are started at $0.1$ and cranked up during the simulation.
