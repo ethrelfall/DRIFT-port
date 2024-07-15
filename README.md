@@ -45,3 +45,5 @@ Box size and centring $L_x =12.5$, $L_y = 50$ and $y_0 = 25$.
 
 Other considerations:
 $\nu$ and $\mu_{\perp}$ are started at $0.1$ and cranked up during the simulation.
+
+Equations in weak form:
