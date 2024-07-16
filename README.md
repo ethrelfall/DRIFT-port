@@ -44,6 +44,6 @@ $\beta = 0.7$
 Box size and centring $L_x =12.5$, $L_y = 50$ and $y_0 = 25$.
 
 Other considerations:
-$\nu$ and $\mu_{\perp}$ are started at $0.1$ and cranked up during the simulation.
+$\nu$ and $\mu_{\perp}$ are started at $0.1$ and cranked up during the simulation.  It looks like the $\mu_{\parallel}$ term suppresses edge modes because it is a viscosity, zero halfway up the domain and with a parabolic increase away from the halfway point.
 
 Equations in weak form:
