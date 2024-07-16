@@ -25,7 +25,7 @@ Now the game is to reproduce the contour plots in Fig.5.
 
 Boundary conditions: $y$-direction homogeneous Dirichlet, $x$-direction periodic.
 
-Initial data:
+Initial data: see Eq.5.7 in the paper - random but energy spectrum and total energy are specified.
 
 Parameter values:
 
