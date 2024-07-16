@@ -41,7 +41,7 @@ $\alpha = 0.744$
 
 $\beta = 0.7$
 
-The above choices give $\mu_{parallel} = 0.75$.
+The above choices give $\mu_{\parallel} = 0.75$.
 
 Box size and centring $L_x =12.5$, $L_y = 50$ and $y_0 = 25$.
 
