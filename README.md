@@ -1,7 +1,7 @@
 # DRIFT-port
 FEM ports of Fortran DRIFT code (W. Arter, 1994)
 
-The equations are (eqs. 2.2-2.8 in the paper)
+The equations are (eqs. 2.2-2.8 in the paper) - note there is no toroidicity included (following advice from W. Arter)
 
 $$
 n = \phi - \alpha \frac{\partial \phi}{\partial x} - \beta\frac{\partial^3 \phi}{\partial x^3} - \nabla_{\perp}^2 \phi,
