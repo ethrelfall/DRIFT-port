@@ -50,7 +50,7 @@ Other considerations:
 
 Equations in weak form: TBC (or just read the UFL in the script :))
 
-Sample outputs: these are the three fields halfway through the run of DRIFT-port_dev.py (i.e. at t=400).
+Sample outputs: these are the three fields halfway through the run of DRIFT-port_dev.py (i.e. at t=400).  **Potential confusion: axes switched around so $x$ is vertical.**
 
 ![v_par](png/v_par_200.png "parallel velocity"))
 ![n](png/n_200.png "density"))
