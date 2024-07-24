@@ -1,5 +1,5 @@
 # DRIFT-port
-FEM ports of Fortran DRIFT code (W. Arter, 1994)
+FEM ports of Fortran DRIFT code (W. Arter, 1994) - see the paper *Particle-mesh modelling of drift-wave turbulence* W.Arter, CPC 79 (1994) 381-408.
 
 The equations are (eqs. 2.2-2.8 in the paper) - note there is no toroidicity included (following advice from W. Arter)
 
