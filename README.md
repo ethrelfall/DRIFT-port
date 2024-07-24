@@ -29,7 +29,7 @@ Initial data: see Eq.5.7 in the paper - random but energy spectrum and total ene
 
 Parameter values:
 
-$\nu = \mu_{\perp} = 0.3$
+$\nu = \mu_{\perp} = 0.01$
 
 $\mu_{\parallel} \delta_s^2 = 0.03$
 
@@ -46,7 +46,7 @@ The above choices give $\mu_{\parallel} = 0.75$.
 Box size and centring $L_x =12.5$, $L_y = 50$ and $y_0 = 25$.
 
 Other considerations:
-$\nu$ and $\mu_{\perp}$ are started at $0.1$ and cranked up during the simulation.  It looks like the $\mu_{\parallel}$ term suppresses edge modes because it is a viscosity, zero halfway up the domain and with a parabolic increase away from the halfway point.
+$\nu$ and $\mu_{\perp}$ are both set to $0.01$ unlike Arter who set them to $0.1$ and then cranks them up to $0.3$ once the mode has started to appear.  It looks like the $\mu_{\parallel}$ term suppresses edge modes because it is a viscosity, zero halfway up the domain and with a parabolic increase away from the halfway point.
 
 Equations in weak form: TBC (or just read the UFL in the script :))
 
