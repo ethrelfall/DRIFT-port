@@ -50,9 +50,15 @@ $\nu$ and $\mu_{\perp}$ are started at $0.1$ and cranked up during the simulatio
 
 Equations in weak form: TBC (or just read the UFL in the script :))
 
-Smaple outputs: these are the three fields halfway through the run of DRIFT-port_dev.py (i.e. at t=400).
+Sample outputs: these are the three fields halfway through the run of DRIFT-port_dev.py (i.e. at t=400).
 
 ![v_par](png/v_par_200.png "parallel velocity"))
 ![n](png/n_200.png "density"))
 ![phi](png/phi_200.png "potential"))
+
+# Behaviour of energy
+
+I have defined the energy as $\int d^2 x n \phi + v_{\par}^2$ (should there be a factor of $\frac{1}{2}$ in the kinetic term?) - see below for a time-series energy trace.  Note how low the energy goes before the mode starts to develop.
+
+![energy](png/energy1.png "Time-evolution of the energy for the script {\tt DRIFT-port_dev.py} used to generate the fields shown above")
 
