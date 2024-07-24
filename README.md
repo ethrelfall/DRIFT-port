@@ -21,7 +21,7 @@ $$
 v_E = \left ( -\frac{\partial \phi}{\partial y}, \frac{\partial \phi}{\partial x}, 0 \right ).
 $$
 
-Now the game is to reproduce the contour plots in Fig.5.
+Now the game is to **reproduce the contour plots in Fig.5 of the paper**.
 
 Boundary conditions: $y$-direction homogeneous Dirichlet, $x$-direction periodic.
 
