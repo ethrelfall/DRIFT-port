@@ -62,5 +62,5 @@ I have defined the energy as $\int d^2 x \left ( n \phi + v_{\parallel}^2 \right
 
 ![energy](png/energy1.png "Time-evolution of the energy for the script {\tt DRIFT-port_dev.py} used to generate the fields shown above")
 
-![logenergy](png/logenergy1.png "Time-evolution of the log (base 10) energy for the script {\tt DRIFT-port_dev.py} used to generate the fields shown above")
+![logenergy](png/log10energy1.png "Time-evolution of the log (base 10) energy for the script {\tt DRIFT-port_dev.py} used to generate the fields shown above")
 
