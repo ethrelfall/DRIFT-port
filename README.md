@@ -54,5 +54,5 @@ Smaple outputs: these are the three fields halfway through the run of DRIFT-port
 
 ![v_par](png/v_par_200.png "parallel velocity"))
 ![n](png/n_200.png "density"))
-![phi(png/phi_200.png "potential"))
+![phi](png/phi_200.png "potential"))
 
