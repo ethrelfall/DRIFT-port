@@ -48,4 +48,11 @@ Box size and centring $L_x =12.5$, $L_y = 50$ and $y_0 = 25$.
 Other considerations:
 $\nu$ and $\mu_{\perp}$ are started at $0.1$ and cranked up during the simulation.  It looks like the $\mu_{\parallel}$ term suppresses edge modes because it is a viscosity, zero halfway up the domain and with a parabolic increase away from the halfway point.
 
-Equations in weak form:
+Equations in weak form: TBC (or just read the UFL in the script :))
+
+Smaple outputs: these are the three fields halfway through the run of DRIFT-port_dev.py (i.e. at t=400).
+
+![v_par](png/v_par_200.png "parallel velocity"))
+![n](png/n_200.png "density"))
+![phi(png/phi_200.png "potential"))
+
