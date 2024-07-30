@@ -124,6 +124,7 @@ n_sub_copyback = Function(V1)
 
 outfile = File("DRIFT_port_dev.pvd")
 energyfile = open("energy.csv", "w")
+energyfile.write(str("time")+", "+str("energy")+"\n")
 
 cnt=0
 start = time.time()
@@ -139,6 +140,10 @@ while float(t) < float(T):
 
     solve(Lphi==Rphi, phiy3a_s, solver_parameters=linparams, bcs=bc1)
 
+    vs, ns = vn.split()
+    energy = assemble(0.5*(ns*phiy3a_s.sub(0)+vs*vs)*dx)
+    energyfile.write(str(float(t))+", "+str(float(energy))+"\n")
+  
     # INTERPOLATE AND DO SUBTRACTION
     phi_sub.interpolate(phi_s)
     U = FunctionSpace(mesh2d, 'CG', 1, vfamily='R', vdegree=0)
@@ -172,10 +177,7 @@ while float(t) < float(T):
        ns.rename("n")
        phiy3a_s.sub(0).rename("phi")
        outfile.write(vs, ns, phiy3a_s.sub(0), phi_sub_copyback)
-
-    energy = assemble((ns*phiy3a_s.sub(0)+vs*vs)*dx)
-    energyfile.write(str(float(t))+", "+str(float(energy))+"\n")
-
+      
     cnt=cnt+1
     stepper.advance()
     t.assign(float(t) + float(dt))
