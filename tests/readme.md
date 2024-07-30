@@ -1,5 +1,15 @@
 # DRIFT-port/tests
 
+The most simple test is the decay rate of the energy in the initial data.  The code produces the output
+
+![code_energy](../png/Ed_energy.png "Initial energy decay from DRIFT-port.dev.")
+
+This can be compared to the decay of the energy in the original DRIFT code, using the same initial data:
+
+![DRIFT_orig_energy](../png/t_pdtd123.png "Initial energy decay from old FORTRAN DRIFT code.")
+
+# Other tests:
+
 KdV_equation:  implementation of the KdV equation in FEM using auxilliary field to handle the higher derivative.  The test script produces a similar output to the numerical example animated at https://en.wikipedia.org/wiki/Korteweg%E2%80%93De_Vries_equation.
 
 ![KdV_field](../png/KdV_field.png "Field during evolution of KdV equation - compare the animation on the wiki page.")
