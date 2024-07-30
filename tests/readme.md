@@ -1,10 +1,10 @@
 # DRIFT-port/tests
 
-The most simple test is the decay rate of the energy in the initial data.  The code produces the output
+The most simple test is the decay rate of the energy in the initial data.  The code produces the output (vertical axis is log10 of energy, horizontal axis is time)
 
 ![code_energy](../png/Ed_energy.png "Initial energy decay from DRIFT-port.dev.")
 
-This can be compared to the decay of the energy in the original DRIFT code, using the same initial data:
+This can be compared to the decay of the energy in the original DRIFT code, using the same initial data (axes same):
 
 ![DRIFT_orig_energy](../png/t_pdtd123.png "Initial energy decay from old FORTRAN DRIFT code.")
 
